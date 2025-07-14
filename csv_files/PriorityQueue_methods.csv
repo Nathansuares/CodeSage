@@ -1,0 +1,21 @@
+modifier_and_type,method,description
+boolean,add(Ee),Inserts the specified element into this priority queue.
+void,clear(),Removes all of the elements from this priority queue.
+Comparator<? superE>,comparator(),"Returns the comparator used to order the elements in this
+ queue, ornullif this queue is sorted according to
+ thenatural orderingof its elements."
+boolean,contains(Objecto),Returnstrueif this queue contains the specified element.
+Iterator<E>,iterator(),Returns an iterator over the elements in this queue.
+boolean,offer(Ee),Inserts the specified element into this priority queue.
+E,peek(),"Retrieves, but does not remove, the head of this queue,
+ or returnsnullif this queue is empty."
+E,poll(),"Retrieves and removes the head of this queue,
+ or returnsnullif this queue is empty."
+boolean,remove(Objecto),"Removes a single instance of the specified element from this queue,
+ if it is present."
+int,size(),Returns the number of elements in this collection.
+Spliterator<E>,spliterator(),"Creates alate-bindingandfail-fastSpliteratorover the elements in this
+ queue."
+Object[],toArray(),Returns an array containing all of the elements in this queue.
+<T> T[],toArray(T[] a),"Returns an array containing all of the elements in this queue; the
+ runtime type of the returned array is that of the specified array."

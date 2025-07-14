@@ -1,0 +1,8 @@
+modifier_and_type,method,description
+boolean,empty(),Tests if this stack is empty.
+E,peek(),"Looks at the object at the top of this stack without removing it
+ from the stack."
+E,pop(),"Removes the object at the top of this stack and returns that
+ object as the value of this function."
+E,push(Eitem),Pushes an item onto the top of this stack.
+int,search(Objecto),Returns the 1-based position where an object is on this stack.

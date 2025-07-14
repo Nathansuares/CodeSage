@@ -1,0 +1,11 @@
+modifier_and_type,method,description
+boolean,add(Ee),"Inserts the specified element into this queue if it is possible to do so
+ immediately without violating capacity restrictions, returningtrueupon success and throwing anIllegalStateExceptionif no space is currently available."
+E,element(),"Retrieves, but does not remove, the head of this queue."
+boolean,offer(Ee),"Inserts the specified element into this queue if it is possible to do
+ so immediately without violating capacity restrictions."
+E,peek(),"Retrieves, but does not remove, the head of this queue,
+ or returnsnullif this queue is empty."
+E,poll(),"Retrieves and removes the head of this queue,
+ or returnsnullif this queue is empty."
+E,remove(),Retrieves and removes the head of this queue.

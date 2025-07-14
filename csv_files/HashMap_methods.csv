@@ -1,0 +1,41 @@
+modifier_and_type,method,description
+void,clear(),Removes all of the mappings from this map.
+Object,clone(),"Returns a shallow copy of thisHashMapinstance: the keys and
+ values themselves are not cloned."
+V,"compute(Kkey,BiFunction<? superK,? superV,? extendsV> remappingFunction)","Attempts to compute a mapping for the specified key and its current
+ mapped value (ornullif there is no current mapping)."
+V,"computeIfAbsent(Kkey,Function<? superK,? extendsV> mappingFunction)","If the specified key is not already associated with a value (or is mapped
+ tonull), attempts to compute its value using the given mapping
+ function and enters it into this map unlessnull."
+V,"computeIfPresent(Kkey,BiFunction<? superK,? superV,? extendsV> remappingFunction)","If the value for the specified key is present and non-null, attempts to
+ compute a new mapping given the key and its current mapped value."
+boolean,containsKey(Objectkey),"Returnstrueif this map contains a mapping for the
+ specified key."
+boolean,containsValue(Objectvalue),"Returnstrueif this map maps one or more keys to the
+ specified value."
+"Set<Map.Entry<K,V>>",entrySet(),Returns aSetview of the mappings contained in this map.
+void,"forEach(BiConsumer<? superK,? superV> action)","Performs the given action for each entry in this map until all entries
+ have been processed or the action throws an exception."
+V,get(Objectkey),"Returns the value to which the specified key is mapped,
+ ornullif this map contains no mapping for the key."
+V,"getOrDefault(Objectkey,VdefaultValue)","Returns the value to which the specified key is mapped, ordefaultValueif this map contains no mapping for the key."
+boolean,isEmpty(),Returnstrueif this map contains no key-value mappings.
+Set<K>,keySet(),Returns aSetview of the keys contained in this map.
+V,"merge(Kkey,Vvalue,BiFunction<? superV,? superV,? extendsV> remappingFunction)","If the specified key is not already associated with a value or is
+ associated with null, associates it with the given non-null value."
+V,"put(Kkey,Vvalue)",Associates the specified value with the specified key in this map.
+void,"putAll(Map<? extendsK,? extendsV> m)",Copies all of the mappings from the specified map to this map.
+V,"putIfAbsent(Kkey,Vvalue)","If the specified key is not already associated with a value (or is mapped
+ tonull) associates it with the given value and returnsnull, else returns the current value."
+V,remove(Objectkey),Removes the mapping for the specified key from this map if present.
+boolean,"remove(Objectkey,Objectvalue)","Removes the entry for the specified key only if it is currently
+ mapped to the specified value."
+V,"replace(Kkey,Vvalue)","Replaces the entry for the specified key only if it is
+ currently mapped to some value."
+boolean,"replace(Kkey,VoldValue,VnewValue)","Replaces the entry for the specified key only if currently
+ mapped to the specified value."
+void,"replaceAll(BiFunction<? superK,? superV,? extendsV> function)","Replaces each entry's value with the result of invoking the given
+ function on that entry until all entries have been processed or the
+ function throws an exception."
+int,size(),Returns the number of key-value mappings in this map.
+Collection<V>,values(),Returns aCollectionview of the values contained in this map.

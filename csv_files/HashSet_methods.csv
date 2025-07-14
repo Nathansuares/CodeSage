@@ -1,0 +1,12 @@
+modifier_and_type,method,description
+boolean,add(Ee),Adds the specified element to this set if it is not already present.
+void,clear(),Removes all of the elements from this set.
+Object,clone(),"Returns a shallow copy of thisHashSetinstance: the elements
+ themselves are not cloned."
+boolean,contains(Objecto),Returnstrueif this set contains the specified element.
+boolean,isEmpty(),Returnstrueif this set contains no elements.
+Iterator<E>,iterator(),Returns an iterator over the elements in this set.
+boolean,remove(Objecto),Removes the specified element from this set if it is present.
+int,size(),Returns the number of elements in this set (its cardinality).
+Spliterator<E>,spliterator(),"Creates alate-bindingandfail-fastSpliteratorover the elements in this
+ set."

@@ -1,0 +1,237 @@
+modifier_and_type,method,description
+static class,Character.Subset,"Instances of this class represent particular subsets of the Unicode
+ character set."
+static class,Character.UnicodeBlock,"A family of character subsets representing the character blocks in the
+ Unicode specification."
+static class,Character.UnicodeScript,"A family of character subsets representing the character scripts
+ defined in theUnicode Standard Annex #24: Script Names."
+static int,BYTES,"The number of bytes used to represent acharvalue in unsigned
+ binary form."
+static byte,COMBINING_SPACING_MARK,"General category ""Mc"" in the Unicode specification."
+static byte,CONNECTOR_PUNCTUATION,"General category ""Pc"" in the Unicode specification."
+static byte,CONTROL,"General category ""Cc"" in the Unicode specification."
+static byte,CURRENCY_SYMBOL,"General category ""Sc"" in the Unicode specification."
+static byte,DASH_PUNCTUATION,"General category ""Pd"" in the Unicode specification."
+static byte,DECIMAL_DIGIT_NUMBER,"General category ""Nd"" in the Unicode specification."
+static byte,DIRECTIONALITY_ARABIC_NUMBER,"Weak bidirectional character type ""AN"" in the Unicode specification."
+static byte,DIRECTIONALITY_BOUNDARY_NEUTRAL,"Weak bidirectional character type ""BN"" in the Unicode specification."
+static byte,DIRECTIONALITY_COMMON_NUMBER_SEPARATOR,"Weak bidirectional character type ""CS"" in the Unicode specification."
+static byte,DIRECTIONALITY_EUROPEAN_NUMBER,"Weak bidirectional character type ""EN"" in the Unicode specification."
+static byte,DIRECTIONALITY_EUROPEAN_NUMBER_SEPARATOR,"Weak bidirectional character type ""ES"" in the Unicode specification."
+static byte,DIRECTIONALITY_EUROPEAN_NUMBER_TERMINATOR,"Weak bidirectional character type ""ET"" in the Unicode specification."
+static byte,DIRECTIONALITY_LEFT_TO_RIGHT,"Strong bidirectional character type ""L"" in the Unicode specification."
+static byte,DIRECTIONALITY_LEFT_TO_RIGHT_EMBEDDING,"Strong bidirectional character type ""LRE"" in the Unicode specification."
+static byte,DIRECTIONALITY_LEFT_TO_RIGHT_OVERRIDE,"Strong bidirectional character type ""LRO"" in the Unicode specification."
+static byte,DIRECTIONALITY_NONSPACING_MARK,"Weak bidirectional character type ""NSM"" in the Unicode specification."
+static byte,DIRECTIONALITY_OTHER_NEUTRALS,"Neutral bidirectional character type ""ON"" in the Unicode specification."
+static byte,DIRECTIONALITY_PARAGRAPH_SEPARATOR,"Neutral bidirectional character type ""B"" in the Unicode specification."
+static byte,DIRECTIONALITY_POP_DIRECTIONAL_FORMAT,"Weak bidirectional character type ""PDF"" in the Unicode specification."
+static byte,DIRECTIONALITY_RIGHT_TO_LEFT,"Strong bidirectional character type ""R"" in the Unicode specification."
+static byte,DIRECTIONALITY_RIGHT_TO_LEFT_ARABIC,"Strong bidirectional character type ""AL"" in the Unicode specification."
+static byte,DIRECTIONALITY_RIGHT_TO_LEFT_EMBEDDING,"Strong bidirectional character type ""RLE"" in the Unicode specification."
+static byte,DIRECTIONALITY_RIGHT_TO_LEFT_OVERRIDE,"Strong bidirectional character type ""RLO"" in the Unicode specification."
+static byte,DIRECTIONALITY_SEGMENT_SEPARATOR,"Neutral bidirectional character type ""S"" in the Unicode specification."
+static byte,DIRECTIONALITY_UNDEFINED,Undefined bidirectional character type.
+static byte,DIRECTIONALITY_WHITESPACE,"Neutral bidirectional character type ""WS"" in the Unicode specification."
+static byte,ENCLOSING_MARK,"General category ""Me"" in the Unicode specification."
+static byte,END_PUNCTUATION,"General category ""Pe"" in the Unicode specification."
+static byte,FINAL_QUOTE_PUNCTUATION,"General category ""Pf"" in the Unicode specification."
+static byte,FORMAT,"General category ""Cf"" in the Unicode specification."
+static byte,INITIAL_QUOTE_PUNCTUATION,"General category ""Pi"" in the Unicode specification."
+static byte,LETTER_NUMBER,"General category ""Nl"" in the Unicode specification."
+static byte,LINE_SEPARATOR,"General category ""Zl"" in the Unicode specification."
+static byte,LOWERCASE_LETTER,"General category ""Ll"" in the Unicode specification."
+static byte,MATH_SYMBOL,"General category ""Sm"" in the Unicode specification."
+static int,MAX_CODE_POINT,"The maximum value of aUnicode code point, constantU+10FFFF."
+static char,MAX_HIGH_SURROGATE,"The maximum value of aUnicode high-surrogate code unitin the UTF-16 encoding, constant'\uDBFF'."
+static char,MAX_LOW_SURROGATE,"The maximum value of aUnicode low-surrogate code unitin the UTF-16 encoding, constant'\uDFFF'."
+static int,MAX_RADIX,The maximum radix available for conversion to and from strings.
+static char,MAX_SURROGATE,"The maximum value of a Unicode surrogate code unit in the
+ UTF-16 encoding, constant'\uDFFF'."
+static char,MAX_VALUE,"The constant value of this field is the largest value of typechar,'\uFFFF'."
+static int,MIN_CODE_POINT,"The minimum value of aUnicode code point, constantU+0000."
+static char,MIN_HIGH_SURROGATE,"The minimum value of aUnicode high-surrogate code unitin the UTF-16 encoding, constant'\uD800'."
+static char,MIN_LOW_SURROGATE,"The minimum value of aUnicode low-surrogate code unitin the UTF-16 encoding, constant'\uDC00'."
+static int,MIN_RADIX,The minimum radix available for conversion to and from strings.
+static int,MIN_SUPPLEMENTARY_CODE_POINT,"The minimum value of aUnicode supplementary code point, constantU+10000."
+static char,MIN_SURROGATE,"The minimum value of a Unicode surrogate code unit in the
+ UTF-16 encoding, constant'\uD800'."
+static char,MIN_VALUE,"The constant value of this field is the smallest value of typechar,'\u0000'."
+static byte,MODIFIER_LETTER,"General category ""Lm"" in the Unicode specification."
+static byte,MODIFIER_SYMBOL,"General category ""Sk"" in the Unicode specification."
+static byte,NON_SPACING_MARK,"General category ""Mn"" in the Unicode specification."
+static byte,OTHER_LETTER,"General category ""Lo"" in the Unicode specification."
+static byte,OTHER_NUMBER,"General category ""No"" in the Unicode specification."
+static byte,OTHER_PUNCTUATION,"General category ""Po"" in the Unicode specification."
+static byte,OTHER_SYMBOL,"General category ""So"" in the Unicode specification."
+static byte,PARAGRAPH_SEPARATOR,"General category ""Zp"" in the Unicode specification."
+static byte,PRIVATE_USE,"General category ""Co"" in the Unicode specification."
+static int,SIZE,"The number of bits used to represent acharvalue in unsigned
+ binary form, constant16."
+static byte,SPACE_SEPARATOR,"General category ""Zs"" in the Unicode specification."
+static byte,START_PUNCTUATION,"General category ""Ps"" in the Unicode specification."
+static byte,SURROGATE,"General category ""Cs"" in the Unicode specification."
+static byte,TITLECASE_LETTER,"General category ""Lt"" in the Unicode specification."
+staticClass<Character>,TYPE,TheClassinstance representing the primitive typechar.
+static byte,UNASSIGNED,"General category ""Cn"" in the Unicode specification."
+static byte,UPPERCASE_LETTER,"General category ""Lu"" in the Unicode specification."
+static int,charCount(int codePoint),"Determines the number ofcharvalues needed to
+ represent the specified character (Unicode code point)."
+char,charValue(),Returns the value of thisCharacterobject.
+static int,"codePointAt(char[] a,
+           int index)",Returns the code point at the given index of thechararray.
+static int,"codePointAt(char[] a,
+           int index,
+           int limit)","Returns the code point at the given index of thechararray, where only array elements withindexless thanlimitcan be used."
+static int,"codePointAt(CharSequenceseq,
+           int index)",Returns the code point at the given index of theCharSequence.
+static int,"codePointBefore(char[] a,
+               int index)",Returns the code point preceding the given index of thechararray.
+static int,"codePointBefore(char[] a,
+               int index,
+               int start)","Returns the code point preceding the given index of thechararray, where only array elements withindexgreater than or equal tostartcan be used."
+static int,"codePointBefore(CharSequenceseq,
+               int index)",Returns the code point preceding the given index of theCharSequence.
+static int,"codePointCount(char[] a,
+              int offset,
+              int count)",Returns the number of Unicode code points in a subarray of thechararray argument.
+static int,"codePointCount(CharSequenceseq,
+              int beginIndex,
+              int endIndex)","Returns the number of Unicode code points in the text range of
+ the specified char sequence."
+static int,"compare(char x,
+       char y)",Compares twocharvalues numerically.
+int,compareTo(CharacteranotherCharacter),Compares twoCharacterobjects numerically.
+static int,"digit(char ch,
+     int radix)","Returns the numeric value of the characterchin the
+ specified radix."
+static int,"digit(int codePoint,
+     int radix)","Returns the numeric value of the specified character (Unicode
+ code point) in the specified radix."
+boolean,equals(Objectobj),Compares this object against the specified object.
+static char,"forDigit(int digit,
+        int radix)","Determines the character representation for a specific digit in
+ the specified radix."
+static byte,getDirectionality(char ch),"Returns the Unicode directionality property for the given
+ character."
+static byte,getDirectionality(int codePoint),"Returns the Unicode directionality property for the given
+ character (Unicode code point)."
+staticString,getName(int codePoint),"Returns the Unicode name of the specified charactercodePoint, or null if the code point isunassigned."
+static int,getNumericValue(char ch),"Returns theintvalue that the specified Unicode
+ character represents."
+static int,getNumericValue(int codePoint),"Returns theintvalue that the specified
+ character (Unicode code point) represents."
+static int,getType(char ch),Returns a value indicating a character's general category.
+static int,getType(int codePoint),Returns a value indicating a character's general category.
+int,hashCode(),"Returns a hash code for thisCharacter; equal to the result
+ of invokingcharValue()."
+static int,hashCode(char value),Returns a hash code for acharvalue; compatible withCharacter.hashCode().
+static char,highSurrogate(int codePoint),"Returns the leading surrogate (ahigh surrogate code unit) of thesurrogate pairrepresenting the specified supplementary character (Unicode
+ code point) in the UTF-16 encoding."
+static boolean,isAlphabetic(int codePoint),Determines if the specified character (Unicode code point) is an alphabet.
+static boolean,isBmpCodePoint(int codePoint),"Determines whether the specified character (Unicode code point)
+ is in theBasic Multilingual Plane (BMP)."
+static boolean,isDefined(char ch),Determines if a character is defined in Unicode.
+static boolean,isDefined(int codePoint),Determines if a character (Unicode code point) is defined in Unicode.
+static boolean,isDigit(char ch),Determines if the specified character is a digit.
+static boolean,isDigit(int codePoint),Determines if the specified character (Unicode code point) is a digit.
+static boolean,isHighSurrogate(char ch),Determines if the givencharvalue is aUnicode high-surrogate code unit(also known asleading-surrogate code unit).
+static boolean,isIdentifierIgnorable(char ch),"Determines if the specified character should be regarded as
+ an ignorable character in a Java identifier or a Unicode identifier."
+static boolean,isIdentifierIgnorable(int codePoint),"Determines if the specified character (Unicode code point) should be regarded as
+ an ignorable character in a Java identifier or a Unicode identifier."
+static boolean,isIdeographic(int codePoint),"Determines if the specified character (Unicode code point) is a CJKV
+ (Chinese, Japanese, Korean and Vietnamese) ideograph, as defined by
+ the Unicode Standard."
+static boolean,isISOControl(char ch),"Determines if the specified character is an ISO control
+ character."
+static boolean,isISOControl(int codePoint),"Determines if the referenced character (Unicode code point) is an ISO control
+ character."
+static boolean,isJavaIdentifierPart(char ch),"Determines if the specified character may be part of a Java
+ identifier as other than the first character."
+static boolean,isJavaIdentifierPart(int codePoint),"Determines if the character (Unicode code point) may be part of a Java
+ identifier as other than the first character."
+static boolean,isJavaIdentifierStart(char ch),"Determines if the specified character is
+ permissible as the first character in a Java identifier."
+static boolean,isJavaIdentifierStart(int codePoint),"Determines if the character (Unicode code point) is
+ permissible as the first character in a Java identifier."
+static boolean,isJavaLetter(char ch),Deprecated.Replaced by isJavaIdentifierStart(char).
+static boolean,isJavaLetterOrDigit(char ch),Deprecated.Replaced by isJavaIdentifierPart(char).
+static boolean,isLetter(char ch),Determines if the specified character is a letter.
+static boolean,isLetter(int codePoint),Determines if the specified character (Unicode code point) is a letter.
+static boolean,isLetterOrDigit(char ch),Determines if the specified character is a letter or digit.
+static boolean,isLetterOrDigit(int codePoint),Determines if the specified character (Unicode code point) is a letter or digit.
+static boolean,isLowerCase(char ch),Determines if the specified character is a lowercase character.
+static boolean,isLowerCase(int codePoint),"Determines if the specified character (Unicode code point) is a
+ lowercase character."
+static boolean,isLowSurrogate(char ch),Determines if the givencharvalue is aUnicode low-surrogate code unit(also known astrailing-surrogate code unit).
+static boolean,isMirrored(char ch),"Determines whether the character is mirrored according to the
+ Unicode specification."
+static boolean,isMirrored(int codePoint),"Determines whether the specified character (Unicode code point)
+ is mirrored according to the Unicode specification."
+static boolean,isSpace(char ch),Deprecated.Replaced by isWhitespace(char).
+static boolean,isSpaceChar(char ch),Determines if the specified character is a Unicode space character.
+static boolean,isSpaceChar(int codePoint),"Determines if the specified character (Unicode code point) is a
+ Unicode space character."
+static boolean,isSupplementaryCodePoint(int codePoint),"Determines whether the specified character (Unicode code point)
+ is in thesupplementary characterrange."
+static boolean,isSurrogate(char ch),Determines if the givencharvalue is a Unicodesurrogate code unit.
+static boolean,"isSurrogatePair(char high,
+               char low)",Determines whether the specified pair ofcharvalues is a validUnicode surrogate pair.
+static boolean,isTitleCase(char ch),Determines if the specified character is a titlecase character.
+static boolean,isTitleCase(int codePoint),Determines if the specified character (Unicode code point) is a titlecase character.
+static boolean,isUnicodeIdentifierPart(char ch),"Determines if the specified character may be part of a Unicode
+ identifier as other than the first character."
+static boolean,isUnicodeIdentifierPart(int codePoint),"Determines if the specified character (Unicode code point) may be part of a Unicode
+ identifier as other than the first character."
+static boolean,isUnicodeIdentifierStart(char ch),"Determines if the specified character is permissible as the
+ first character in a Unicode identifier."
+static boolean,isUnicodeIdentifierStart(int codePoint),"Determines if the specified character (Unicode code point) is permissible as the
+ first character in a Unicode identifier."
+static boolean,isUpperCase(char ch),Determines if the specified character is an uppercase character.
+static boolean,isUpperCase(int codePoint),Determines if the specified character (Unicode code point) is an uppercase character.
+static boolean,isValidCodePoint(int codePoint),Determines whether the specified code point is a validUnicode code point value.
+static boolean,isWhitespace(char ch),Determines if the specified character is white space according to Java.
+static boolean,isWhitespace(int codePoint),"Determines if the specified character (Unicode code point) is
+ white space according to Java."
+static char,lowSurrogate(int codePoint),"Returns the trailing surrogate (alow surrogate code unit) of thesurrogate pairrepresenting the specified supplementary character (Unicode
+ code point) in the UTF-16 encoding."
+static int,"offsetByCodePoints(char[] a,
+                  int start,
+                  int count,
+                  int index,
+                  int codePointOffset)","Returns the index within the givencharsubarray
+ that is offset from the givenindexbycodePointOffsetcode points."
+static int,"offsetByCodePoints(CharSequenceseq,
+                  int index,
+                  int codePointOffset)","Returns the index within the given char sequence that is offset
+ from the givenindexbycodePointOffsetcode points."
+static char,reverseBytes(char ch),"Returns the value obtained by reversing the order of the bytes in the
+ specifiedcharvalue."
+static char[],toChars(int codePoint),"Converts the specified character (Unicode code point) to its
+ UTF-16 representation stored in achararray."
+static int,"toChars(int codePoint,
+       char[] dst,
+       int dstIndex)","Converts the specified character (Unicode code point) to its
+ UTF-16 representation."
+static int,"toCodePoint(char high,
+           char low)","Converts the specified surrogate pair to its supplementary code
+ point value."
+static char,toLowerCase(char ch),"Converts the character argument to lowercase using case
+ mapping information from the UnicodeData file."
+static int,toLowerCase(int codePoint),"Converts the character (Unicode code point) argument to
+ lowercase using case mapping information from the UnicodeData
+ file."
+String,toString(),Returns aStringobject representing thisCharacter's value.
+staticString,toString(char c),"Returns aStringobject representing the
+ specifiedchar."
+static char,toTitleCase(char ch),"Converts the character argument to titlecase using case mapping
+ information from the UnicodeData file."
+static int,toTitleCase(int codePoint),"Converts the character (Unicode code point) argument to titlecase using case mapping
+ information from the UnicodeData file."
+static char,toUpperCase(char ch),"Converts the character argument to uppercase using case mapping
+ information from the UnicodeData file."
+static int,toUpperCase(int codePoint),"Converts the character (Unicode code point) argument to
+ uppercase using case mapping information from the UnicodeData
+ file."
+staticCharacter,valueOf(char c),Returns aCharacterinstance representing the specifiedcharvalue.

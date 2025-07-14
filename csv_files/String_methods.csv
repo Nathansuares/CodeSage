@@ -1,0 +1,131 @@
+modifier_and_type,method,description
+staticComparator<String>,CASE_INSENSITIVE_ORDER,A Comparator that ordersStringobjects as bycompareToIgnoreCase.
+char,charAt(int index),"Returns thecharvalue at the
+ specified index."
+int,codePointAt(int index),"Returns the character (Unicode code point) at the specified
+ index."
+int,codePointBefore(int index),"Returns the character (Unicode code point) before the specified
+ index."
+int,"codePointCount(int beginIndex,
+              int endIndex)","Returns the number of Unicode code points in the specified text
+ range of thisString."
+int,compareTo(StringanotherString),Compares two strings lexicographically.
+int,compareToIgnoreCase(Stringstr),"Compares two strings lexicographically, ignoring case
+ differences."
+String,concat(Stringstr),Concatenates the specified string to the end of this string.
+boolean,contains(CharSequences),"Returns true if and only if this string contains the specified
+ sequence of char values."
+boolean,contentEquals(CharSequencecs),Compares this string to the specifiedCharSequence.
+boolean,contentEquals(StringBuffersb),Compares this string to the specifiedStringBuffer.
+staticString,copyValueOf(char[] data),Equivalent tovalueOf(char[]).
+staticString,"copyValueOf(char[] data,
+           int offset,
+           int count)","Equivalent tovalueOf(char[], int, int)."
+boolean,endsWith(Stringsuffix),Tests if this string ends with the specified suffix.
+boolean,equals(ObjectanObject),Compares this string to the specified object.
+boolean,equalsIgnoreCase(StringanotherString),"Compares thisStringto anotherString, ignoring case
+ considerations."
+staticString,"format(Localel,Stringformat,Object... args)","Returns a formatted string using the specified locale, format string,
+ and arguments."
+staticString,"format(Stringformat,Object... args)","Returns a formatted string using the specified format string and
+ arguments."
+byte[],getBytes(),"Encodes thisStringinto a sequence of bytes using the
+ platform's default charset, storing the result into a new byte array."
+byte[],getBytes(Charsetcharset),"Encodes thisStringinto a sequence of bytes using the givencharset, storing the result into a
+ new byte array."
+void,"getBytes(int srcBegin,
+        int srcEnd,
+        byte[] dst,
+        int dstBegin)","Deprecated.This method does not properly convert characters into
+ bytes.  As of JDK 1.1, the preferred way to do this is via thegetBytes()method, which uses the platform's default charset."
+byte[],getBytes(StringcharsetName),"Encodes thisStringinto a sequence of bytes using the named
+ charset, storing the result into a new byte array."
+void,"getChars(int srcBegin,
+        int srcEnd,
+        char[] dst,
+        int dstBegin)","Copies characters from this string into the destination character
+ array."
+int,hashCode(),Returns a hash code for this string.
+int,indexOf(int ch),"Returns the index within this string of the first occurrence of
+ the specified character."
+int,"indexOf(int ch,
+       int fromIndex)","Returns the index within this string of the first occurrence of the
+ specified character, starting the search at the specified index."
+int,indexOf(Stringstr),"Returns the index within this string of the first occurrence of the
+ specified substring."
+int,"indexOf(Stringstr,
+       int fromIndex)","Returns the index within this string of the first occurrence of the
+ specified substring, starting at the specified index."
+String,intern(),Returns a canonical representation for the string object.
+boolean,isEmpty(),"Returnstrueif, and only if,length()is0."
+staticString,"join(CharSequencedelimiter,CharSequence... elements)","Returns a new String composed of copies of theCharSequence elementsjoined together with a copy of
+ the specifieddelimiter."
+staticString,"join(CharSequencedelimiter,Iterable<? extendsCharSequence> elements)","Returns a newStringcomposed of copies of theCharSequence elementsjoined together with a copy of the
+ specifieddelimiter."
+int,lastIndexOf(int ch),"Returns the index within this string of the last occurrence of
+ the specified character."
+int,"lastIndexOf(int ch,
+           int fromIndex)","Returns the index within this string of the last occurrence of
+ the specified character, searching backward starting at the
+ specified index."
+int,lastIndexOf(Stringstr),"Returns the index within this string of the last occurrence of the
+ specified substring."
+int,"lastIndexOf(Stringstr,
+           int fromIndex)","Returns the index within this string of the last occurrence of the
+ specified substring, searching backward starting at the specified index."
+int,length(),Returns the length of this string.
+boolean,matches(Stringregex),Tells whether or not this string matches the givenregular expression.
+int,"offsetByCodePoints(int index,
+                  int codePointOffset)","Returns the index within thisStringthat is
+ offset from the givenindexbycodePointOffsetcode points."
+boolean,"regionMatches(boolean ignoreCase,
+             int toffset,Stringother,
+             int ooffset,
+             int len)",Tests if two string regions are equal.
+boolean,"regionMatches(int toffset,Stringother,
+             int ooffset,
+             int len)",Tests if two string regions are equal.
+String,"replace(char oldChar,
+       char newChar)",Returns a string resulting from replacing all occurrences ofoldCharin this string withnewChar.
+String,"replace(CharSequencetarget,CharSequencereplacement)","Replaces each substring of this string that matches the literal target
+ sequence with the specified literal replacement sequence."
+String,"replaceAll(Stringregex,Stringreplacement)","Replaces each substring of this string that matches the givenregular expressionwith the
+ given replacement."
+String,"replaceFirst(Stringregex,Stringreplacement)","Replaces the first substring of this string that matches the givenregular expressionwith the
+ given replacement."
+String[],split(Stringregex),Splits this string around matches of the givenregular expression.
+String[],"split(Stringregex,
+     int limit)",Splits this string around matches of the givenregular expression.
+boolean,startsWith(Stringprefix),Tests if this string starts with the specified prefix.
+boolean,"startsWith(Stringprefix,
+          int toffset)","Tests if the substring of this string beginning at the
+ specified index starts with the specified prefix."
+CharSequence,"subSequence(int beginIndex,
+           int endIndex)",Returns a character sequence that is a subsequence of this sequence.
+String,substring(int beginIndex),Returns a string that is a substring of this string.
+String,"substring(int beginIndex,
+         int endIndex)",Returns a string that is a substring of this string.
+char[],toCharArray(),Converts this string to a new character array.
+String,toLowerCase(),"Converts all of the characters in thisStringto lower
+ case using the rules of the default locale."
+String,toLowerCase(Localelocale),"Converts all of the characters in thisStringto lower
+ case using the rules of the givenLocale."
+String,toString(),This object (which is already a string!) is itself returned.
+String,toUpperCase(),"Converts all of the characters in thisStringto upper
+ case using the rules of the default locale."
+String,toUpperCase(Localelocale),"Converts all of the characters in thisStringto upper
+ case using the rules of the givenLocale."
+String,trim(),"Returns a string whose value is this string, with any leading and trailing
+ whitespace removed."
+staticString,valueOf(boolean b),Returns the string representation of thebooleanargument.
+staticString,valueOf(char c),Returns the string representation of thecharargument.
+staticString,valueOf(char[] data),"Returns the string representation of thechararray
+ argument."
+staticString,"valueOf(char[] data,
+       int offset,
+       int count)",Returns the string representation of a specific subarray of thechararray argument.
+staticString,valueOf(double d),Returns the string representation of thedoubleargument.
+staticString,valueOf(float f),Returns the string representation of thefloatargument.
+staticString,valueOf(int i),Returns the string representation of theintargument.
+staticString,valueOf(long l),Returns the string representation of thelongargument.
+staticString,valueOf(Objectobj),Returns the string representation of theObjectargument.

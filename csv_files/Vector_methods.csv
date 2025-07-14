@@ -1,0 +1,95 @@
+modifier_and_type,method,description
+protected int,capacityIncrement,"The amount by which the capacity of the vector is automatically
+ incremented when its size becomes greater than its capacity."
+protected int,elementCount,The number of valid components in thisVectorobject.
+protectedObject[],elementData,"The array buffer into which the components of the vector are
+ stored."
+boolean,add(Ee),Appends the specified element to the end of this Vector.
+void,"add(int index,Eelement)",Inserts the specified element at the specified position in this Vector.
+boolean,addAll(Collection<? extendsE> c),"Appends all of the elements in the specified Collection to the end of
+ this Vector, in the order that they are returned by the specified
+ Collection's Iterator."
+boolean,"addAll(int index,Collection<? extendsE> c)","Inserts all of the elements in the specified Collection into this
+ Vector at the specified position."
+void,addElement(Eobj),"Adds the specified component to the end of this vector,
+ increasing its size by one."
+int,capacity(),Returns the current capacity of this vector.
+void,clear(),Removes all of the elements from this Vector.
+Object,clone(),Returns a clone of this vector.
+boolean,contains(Objecto),Returnstrueif this vector contains the specified element.
+boolean,containsAll(Collection<?> c),"Returns true if this Vector contains all of the elements in the
+ specified Collection."
+void,copyInto(Object[] anArray),Copies the components of this vector into the specified array.
+E,elementAt(int index),Returns the component at the specified index.
+Enumeration<E>,elements(),Returns an enumeration of the components of this vector.
+void,ensureCapacity(int minCapacity),"Increases the capacity of this vector, if necessary, to ensure
+ that it can hold at least the number of components specified by
+ the minimum capacity argument."
+boolean,equals(Objecto),Compares the specified Object with this Vector for equality.
+E,firstElement(),"Returns the first component (the item at index0) of
+ this vector."
+void,forEach(Consumer<? superE> action),"Performs the given action for each element of theIterableuntil all elements have been processed or the action throws an
+ exception."
+E,get(int index),Returns the element at the specified position in this Vector.
+int,hashCode(),Returns the hash code value for this Vector.
+int,indexOf(Objecto),"Returns the index of the first occurrence of the specified element
+ in this vector, or -1 if this vector does not contain the element."
+int,"indexOf(Objecto,
+       int index)","Returns the index of the first occurrence of the specified element in
+ this vector, searching forwards fromindex, or returns -1 if
+ the element is not found."
+void,"insertElementAt(Eobj,
+               int index)","Inserts the specified object as a component in this vector at the
+ specifiedindex."
+boolean,isEmpty(),Tests if this vector has no components.
+Iterator<E>,iterator(),Returns an iterator over the elements in this list in proper sequence.
+E,lastElement(),Returns the last component of the vector.
+int,lastIndexOf(Objecto),"Returns the index of the last occurrence of the specified element
+ in this vector, or -1 if this vector does not contain the element."
+int,"lastIndexOf(Objecto,
+           int index)","Returns the index of the last occurrence of the specified element in
+ this vector, searching backwards fromindex, or returns -1 if
+ the element is not found."
+ListIterator<E>,listIterator(),"Returns a list iterator over the elements in this list (in proper
+ sequence)."
+ListIterator<E>,listIterator(int index),"Returns a list iterator over the elements in this list (in proper
+ sequence), starting at the specified position in the list."
+E,remove(int index),Removes the element at the specified position in this Vector.
+boolean,remove(Objecto),"Removes the first occurrence of the specified element in this Vector
+ If the Vector does not contain the element, it is unchanged."
+boolean,removeAll(Collection<?> c),"Removes from this Vector all of its elements that are contained in the
+ specified Collection."
+void,removeAllElements(),Removes all components from this vector and sets its size to zero.
+boolean,removeElement(Objectobj),"Removes the first (lowest-indexed) occurrence of the argument
+ from this vector."
+void,removeElementAt(int index),Deletes the component at the specified index.
+boolean,removeIf(Predicate<? superE> filter),"Removes all of the elements of this collection that satisfy the given
+ predicate."
+protected void,"removeRange(int fromIndex,
+           int toIndex)","Removes from this list all of the elements whose index is betweenfromIndex, inclusive, andtoIndex, exclusive."
+void,replaceAll(UnaryOperator<E> operator),"Replaces each element of this list with the result of applying the
+ operator to that element."
+boolean,retainAll(Collection<?> c),"Retains only the elements in this Vector that are contained in the
+ specified Collection."
+E,"set(int index,Eelement)","Replaces the element at the specified position in this Vector with the
+ specified element."
+void,"setElementAt(Eobj,
+            int index)","Sets the component at the specifiedindexof this
+ vector to be the specified object."
+void,setSize(int newSize),Sets the size of this vector.
+int,size(),Returns the number of components in this vector.
+void,sort(Comparator<? superE> c),Sorts this list according to the order induced by the specifiedComparator.
+Spliterator<E>,spliterator(),"Creates alate-bindingandfail-fastSpliteratorover the elements in this
+ list."
+List<E>,"subList(int fromIndex,
+       int toIndex)","Returns a view of the portion of this List between fromIndex,
+ inclusive, and toIndex, exclusive."
+Object[],toArray(),"Returns an array containing all of the elements in this Vector
+ in the correct order."
+<T> T[],toArray(T[] a),"Returns an array containing all of the elements in this Vector in the
+ correct order; the runtime type of the returned array is that of the
+ specified array."
+String,toString(),"Returns a string representation of this Vector, containing
+ the String representation of each element."
+void,trimToSize(),"Trims the capacity of this vector to be the vector's current
+ size."
