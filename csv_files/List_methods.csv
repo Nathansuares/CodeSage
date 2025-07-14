@@ -1,0 +1,49 @@
+modifier_and_type,method,description
+boolean,add(Ee),"Appends the specified element to the end of this list (optional
+ operation)."
+void,"add(int index,Eelement)","Inserts the specified element at the specified position in this list
+ (optional operation)."
+boolean,addAll(Collection<? extendsE> c),"Appends all of the elements in the specified collection to the end of
+ this list, in the order that they are returned by the specified
+ collection's iterator (optional operation)."
+boolean,"addAll(int index,Collection<? extendsE> c)","Inserts all of the elements in the specified collection into this
+ list at the specified position (optional operation)."
+void,clear(),Removes all of the elements from this list (optional operation).
+boolean,contains(Objecto),Returnstrueif this list contains the specified element.
+boolean,containsAll(Collection<?> c),"Returnstrueif this list contains all of the elements of the
+ specified collection."
+boolean,equals(Objecto),Compares the specified object with this list for equality.
+E,get(int index),Returns the element at the specified position in this list.
+int,hashCode(),Returns the hash code value for this list.
+int,indexOf(Objecto),"Returns the index of the first occurrence of the specified element
+ in this list, or -1 if this list does not contain the element."
+boolean,isEmpty(),Returnstrueif this list contains no elements.
+Iterator<E>,iterator(),Returns an iterator over the elements in this list in proper sequence.
+int,lastIndexOf(Objecto),"Returns the index of the last occurrence of the specified element
+ in this list, or -1 if this list does not contain the element."
+ListIterator<E>,listIterator(),"Returns a list iterator over the elements in this list (in proper
+ sequence)."
+ListIterator<E>,listIterator(int index),"Returns a list iterator over the elements in this list (in proper
+ sequence), starting at the specified position in the list."
+E,remove(int index),"Removes the element at the specified position in this list (optional
+ operation)."
+boolean,remove(Objecto),"Removes the first occurrence of the specified element from this list,
+ if it is present (optional operation)."
+boolean,removeAll(Collection<?> c),"Removes from this list all of its elements that are contained in the
+ specified collection (optional operation)."
+default void,replaceAll(UnaryOperator<E> operator),"Replaces each element of this list with the result of applying the
+ operator to that element."
+boolean,retainAll(Collection<?> c),"Retains only the elements in this list that are contained in the
+ specified collection (optional operation)."
+E,"set(int index,Eelement)","Replaces the element at the specified position in this list with the
+ specified element (optional operation)."
+int,size(),Returns the number of elements in this list.
+default void,sort(Comparator<? superE> c),Sorts this list according to the order induced by the specifiedComparator.
+defaultSpliterator<E>,spliterator(),Creates aSpliteratorover the elements in this list.
+List<E>,"subList(int fromIndex,
+       int toIndex)","Returns a view of the portion of this list between the specifiedfromIndex, inclusive, andtoIndex, exclusive."
+Object[],toArray(),"Returns an array containing all of the elements in this list in proper
+ sequence (from first to last element)."
+<T> T[],toArray(T[] a),"Returns an array containing all of the elements in this list in
+ proper sequence (from first to last element); the runtime type of
+ the returned array is that of the specified array."

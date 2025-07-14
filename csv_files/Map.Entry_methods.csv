@@ -1,0 +1,11 @@
+modifier_and_type,method,description
+"static <K extendsComparable<? super K>,V>Comparator<Map.Entry<K,V>>",comparingByKey(),Returns a comparator that comparesMap.Entryin natural order on key.
+"static <K,V>Comparator<Map.Entry<K,V>>",comparingByKey(Comparator<? super K> cmp),Returns a comparator that comparesMap.Entryby key using the givenComparator.
+"static <K,V extendsComparable<? super V>>Comparator<Map.Entry<K,V>>",comparingByValue(),Returns a comparator that comparesMap.Entryin natural order on value.
+"static <K,V>Comparator<Map.Entry<K,V>>",comparingByValue(Comparator<? super V> cmp),Returns a comparator that comparesMap.Entryby value using the givenComparator.
+boolean,equals(Objecto),Compares the specified object with this entry for equality.
+K,getKey(),Returns the key corresponding to this entry.
+V,getValue(),Returns the value corresponding to this entry.
+int,hashCode(),Returns the hash code value for this map entry.
+V,setValue(Vvalue),"Replaces the value corresponding to this entry with the specified
+ value (optional operation)."

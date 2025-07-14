@@ -1,0 +1,108 @@
+modifier_and_type,method,description
+static int,BYTES,"The number of bytes used to represent aintvalue in two's
+ complement binary form."
+static int,MAX_VALUE,"A constant holding the maximum value anintcan
+ have, 231-1."
+static int,MIN_VALUE,"A constant holding the minimum value anintcan
+ have, -231."
+static int,SIZE,"The number of bits used to represent anintvalue in two's
+ complement binary form."
+staticClass<Integer>,TYPE,TheClassinstance representing the primitive typeint.
+static int,bitCount(int i),"Returns the number of one-bits in the two's complement binary
+ representation of the specifiedintvalue."
+byte,byteValue(),Returns the value of thisIntegeras abyteafter a narrowing primitive conversion.
+static int,"compare(int x,
+       int y)",Compares twointvalues numerically.
+int,compareTo(IntegeranotherInteger),Compares twoIntegerobjects numerically.
+static int,"compareUnsigned(int x,
+               int y)","Compares twointvalues numerically treating the values
+ as unsigned."
+staticInteger,decode(Stringnm),Decodes aStringinto anInteger.
+static int,"divideUnsigned(int dividend,
+              int divisor)","Returns the unsigned quotient of dividing the first argument by
+ the second where each argument and the result is interpreted as
+ an unsigned value."
+double,doubleValue(),Returns the value of thisIntegeras adoubleafter a widening primitive conversion.
+boolean,equals(Objectobj),Compares this object to the specified object.
+float,floatValue(),Returns the value of thisIntegeras afloatafter a widening primitive conversion.
+staticInteger,getInteger(Stringnm),"Determines the integer value of the system property with the
+ specified name."
+staticInteger,"getInteger(Stringnm,
+          int val)","Determines the integer value of the system property with the
+ specified name."
+staticInteger,"getInteger(Stringnm,Integerval)","Returns the integer value of the system property with the
+ specified name."
+int,hashCode(),Returns a hash code for thisInteger.
+static int,hashCode(int value),Returns a hash code for aintvalue; compatible withInteger.hashCode().
+static int,highestOneBit(int i),"Returns anintvalue with at most a single one-bit, in the
+ position of the highest-order (""leftmost"") one-bit in the specifiedintvalue."
+int,intValue(),Returns the value of thisIntegeras anint.
+long,longValue(),Returns the value of thisIntegeras alongafter a widening primitive conversion.
+static int,lowestOneBit(int i),"Returns anintvalue with at most a single one-bit, in the
+ position of the lowest-order (""rightmost"") one-bit in the specifiedintvalue."
+static int,"max(int a,
+   int b)","Returns the greater of twointvalues
+ as if by callingMath.max."
+static int,"min(int a,
+   int b)","Returns the smaller of twointvalues
+ as if by callingMath.min."
+static int,numberOfLeadingZeros(int i),"Returns the number of zero bits preceding the highest-order
+ (""leftmost"") one-bit in the two's complement binary representation
+ of the specifiedintvalue."
+static int,numberOfTrailingZeros(int i),"Returns the number of zero bits following the lowest-order (""rightmost"")
+ one-bit in the two's complement binary representation of the specifiedintvalue."
+static int,parseInt(Strings),Parses the string argument as a signed decimal integer.
+static int,"parseInt(Strings,
+        int radix)","Parses the string argument as a signed integer in the radix
+ specified by the second argument."
+static int,parseUnsignedInt(Strings),Parses the string argument as an unsigned decimal integer.
+static int,"parseUnsignedInt(Strings,
+                int radix)","Parses the string argument as an unsigned integer in the radix
+ specified by the second argument."
+static int,"remainderUnsigned(int dividend,
+                 int divisor)","Returns the unsigned remainder from dividing the first argument
+ by the second where each argument and the result is interpreted
+ as an unsigned value."
+static int,reverse(int i),"Returns the value obtained by reversing the order of the bits in the
+ two's complement binary representation of the specifiedintvalue."
+static int,reverseBytes(int i),"Returns the value obtained by reversing the order of the bytes in the
+ two's complement representation of the specifiedintvalue."
+static int,"rotateLeft(int i,
+          int distance)","Returns the value obtained by rotating the two's complement binary
+ representation of the specifiedintvalue left by the
+ specified number of bits."
+static int,"rotateRight(int i,
+           int distance)","Returns the value obtained by rotating the two's complement binary
+ representation of the specifiedintvalue right by the
+ specified number of bits."
+short,shortValue(),Returns the value of thisIntegeras ashortafter a narrowing primitive conversion.
+static int,signum(int i),Returns the signum function of the specifiedintvalue.
+static int,"sum(int a,
+   int b)",Adds two integers together as per the + operator.
+staticString,toBinaryString(int i),"Returns a string representation of the integer argument as an
+ unsigned integer in base 2."
+staticString,toHexString(int i),"Returns a string representation of the integer argument as an
+ unsigned integer in base 16."
+staticString,toOctalString(int i),"Returns a string representation of the integer argument as an
+ unsigned integer in base 8."
+String,toString(),Returns aStringobject representing thisInteger's value.
+staticString,toString(int i),"Returns aStringobject representing the
+ specified integer."
+staticString,"toString(int i,
+        int radix)","Returns a string representation of the first argument in the
+ radix specified by the second argument."
+static long,toUnsignedLong(int x),"Converts the argument to alongby an unsigned
+ conversion."
+staticString,toUnsignedString(int i),"Returns a string representation of the argument as an unsigned
+ decimal value."
+staticString,"toUnsignedString(int i,
+                int radix)","Returns a string representation of the first argument as an
+ unsigned integer value in the radix specified by the second
+ argument."
+staticInteger,valueOf(int i),Returns anIntegerinstance representing the specifiedintvalue.
+staticInteger,valueOf(Strings),"Returns anIntegerobject holding the
+ value of the specifiedString."
+staticInteger,"valueOf(Strings,
+       int radix)","Returns anIntegerobject holding the value
+ extracted from the specifiedStringwhen parsed
+ with the radix given by the second argument."
