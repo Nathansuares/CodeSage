@@ -1,0 +1,15 @@
+# Core
+streamlit
+pandas
+
+# LangChain and vector DB
+langchain
+langchain-community
+langchain-google-genai
+faiss-cpu
+
+# Google Gemini
+google-generativeai
+
+# Optional utilities
+tqdm
